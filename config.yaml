@@ -1,0 +1,23 @@
+# When populated, this file contains sensitive info
+# Don't accidently commit this file to public repos!
+# Trim this list to the number of account(s) you have; do not leave filler data here.
+
+# List of AWS Accounts and associated api credentials
+# These role associated with these credentials require the default AWS 'read-only' permissions
+# :name: a shortname/nickname used to refer to a particular AWS account
+# :key: AWS access key id
+# :secret: AWS secret access key
+
+aws_accounts:
+    - name: dev
+      key: aws_access_key
+      secret: secret
+    - name: qa
+      key: aws_access_key
+      secret: secret
+    - name: staging
+      key: aws_access_key
+      secret: secret
+    - name: production
+      key: aws_access_key
+      secret: secret
