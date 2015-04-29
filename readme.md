@@ -19,7 +19,7 @@ For some sample basic scripts, see [this script repo](https://TBD).
 You can install via pip directly from Github
 
 ```
-pip install git+ssh://git@github.com/jfalken/aws_enumeration_lib
+pip install git+https://github.com/jfalken/aws_enumeration_lib.git
 ```
 
 ## Usage
